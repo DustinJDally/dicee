@@ -1,8 +1,26 @@
-// Create random number generator
+// Create random number generator BOTH
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+
+// Course Solution Random Number:
+// SAME
+
 const dice1 = document.querySelector(".img1");
+
+
+// COURSE SOLUTION IMAGE OF DICE 1:
+// var randomDiceImage = "dice" + randomNumber1 + ".png";
+// var randomImageSource = "images/" + randomDiceImage;
+// var image1 = document.querySelectorAll("img")[0];
+
+// COURSE SOLUTION FOR PLAYER 1:
+// image1.setAttribute("src", randomImageSource);
+
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 const dice2 = document.querySelector(".img2");
+
+// COURSE SOLUTION IMAGE OF DICE 2:
+// var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
+// document.querySelectorAll[1].setAttribute("src", randomImageSource2);
 
 // Determine Dice 1
 if (randomNumber1 === 1) {
